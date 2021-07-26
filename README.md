@@ -28,6 +28,7 @@ npx create-react-app frontend
 ## run app
 
 ```
+systemctl start mongod
 uvicorn main:app --host 0.0.0.0 --reload
 npm start --host 0.0.0.0
 ```
