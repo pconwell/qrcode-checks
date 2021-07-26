@@ -19,9 +19,15 @@ apt update && apt dist-upgrade -y
 apt install python3-pip mongodb-org nodejs npm -y
 ```
 
+## npm
+```
+npm install axios bootstrap
+npx create-react-app frontend
+```
 
 ## run app
 
 ```
 uvicorn main:app --host 0.0.0.0 --reload
+npm start
 ```
