@@ -29,5 +29,5 @@ npx create-react-app frontend
 
 ```
 uvicorn main:app --host 0.0.0.0 --reload
-npm start
+npm start --host 0.0.0.0
 ```
